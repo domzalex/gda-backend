@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 let events = require('./model');
 const router = express.Router();
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 80;
 
 dotenv.config();
 
